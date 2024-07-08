@@ -1,0 +1,15 @@
+[package]
+name = "owner-contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+casper-contract = "4.0.0"
+casper-types = "4.0.1"
+
+[[bin]]
+name = "owner_contract"
+path = "src/main.rs"
+bench = false
+doctest = false
+test = false

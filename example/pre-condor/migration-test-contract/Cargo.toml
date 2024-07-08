@@ -1,0 +1,15 @@
+[package]
+name = "migration-test-contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+casper-contract = "4.0.0"
+casper-types = "4.0.1"
+
+[[bin]]
+name = "migration_test_contract_pre"
+path = "src/main.rs"
+bench = false
+doctest = false
+test = false

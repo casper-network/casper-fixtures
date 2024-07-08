@@ -1,0 +1,16 @@
+[package]
+name = "owner-contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+casper-types = { git = "https://github.com/casper-network/casper-node.git", branch = "release-2.0.0-rc3"}
+casper-contract = { git = "https://github.com/casper-network/casper-node.git", branch = "release-2.0.0-rc3"}
+
+
+[[bin]]
+name = "owner_contract_post"
+path = "src/main.rs"
+bench = false
+doctest = false
+test = false
